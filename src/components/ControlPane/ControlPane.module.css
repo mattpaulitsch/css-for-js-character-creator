@@ -10,8 +10,6 @@
     to deal with it yet!
   */
   margin-bottom: 32px;
-  white-space: nowrap;
-  overflow-x: scroll;
 }
 
 .title {
@@ -25,4 +23,10 @@
   font-size: 0.875rem;
   font-weight: 400;
   color: hsl(0deg, 0%, 30%);
+}
+
+h2 {
+  position: sticky;
+  top: 24px;
+  lef: 24px;
 }
